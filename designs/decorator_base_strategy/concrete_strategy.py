@@ -23,7 +23,6 @@ def named_strategy(self, user_name: str, option_var: str = None) -> dict:
     This strategy will be registered under the name, that set in decorator options.
 
     Args:
-    Args:
         self (BasicTask): bind strategy object
         user_name (str): example argument
         option_var (str): example argument
@@ -39,7 +38,6 @@ def strategy_with_service(self, user_name: str, option_var: str = None) -> dict:
     """Simple test strategy with custom name.
     This strategy will be registered under the name, that set in decorator options.
 
-    Args:
     Args:
         self (BasicTask): bind strategy object
         user_name (str): example argument

@@ -130,7 +130,7 @@ class StrategyDirector:
 
     def run_strategy(self, strategy_name: str, *args: Any, **kwargs: Any):
         """Method take strategy by name from register of strategy,
-        passing arguments to strategy method and retun result
+        passing arguments to strategy method and return result
 
         Args:
             strategy_name:
